@@ -33,7 +33,7 @@ FROM python:3.12-slim-bookworm
 
 WORKDIR /app
 
-LABEL org.opencontainers.image.source=https://github.com/ds-sebastian/nc-dmv-monitor
+LABEL org.opencontainers.image.source=https://github.com/ds-sebastian/watch-nc-dmv
 LABEL org.opencontainers.image.description="NC DMV Appointment Monitor"
 
 # Install runtime dependencies for Playwright
