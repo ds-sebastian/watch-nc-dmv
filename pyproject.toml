@@ -1,0 +1,11 @@
+[project]
+name = "watch-nc-dmv"
+version = "0.1.0"
+description = "NC DMV appointment availability monitor"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "aiohttp>=3.12.15",
+    "playwright>=1.55.0",
+]
+
